@@ -1,10 +1,10 @@
 <?php
 
 $tutionFee = 6000;
-// $comission;
+// $commission;
 
-$tutionFee >= 20000 ? $comission = 25 / 100 * $tutionFee : ($tutionFee >= 10000 && $tutionFee < 20000 ? $comission = 20 / 100 * $tutionFee : ($tutionFee < 10000 && $tutionFee >= 7000 ? $comission = 15 / 100 * $tutionFee : $comission = "invalid data"));  
+$tutionFee >= 20000 ? $commission = 25 / 100 * $tutionFee : ($tutionFee >= 10000 && $tutionFee < 20000 ? $commission = 20 / 100 * $tutionFee : ($tutionFee < 10000 && $tutionFee >= 7000 ? $commission = 15 / 100 * $tutionFee : $commission = "invalid data"));  
 
-echo $comission;
+echo $commission;
 
 ?>
